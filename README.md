@@ -100,11 +100,11 @@ g++ -std=c++20 main.cpp -o lab0 -fopenmp
 ```
 ## Open MPI
 ### Основные функции:
-MPI_Init(), MPI_Finalize()
+- `MPI_Init(), MPI_Finalize()`
 
-MPI_Comm_rank(), MPI_Comm_size()
+- `MPI_Comm_rank(), MPI_Comm_size()`
 
-MPI_Send(), MPI_Recv(), MPI_Probe(), MPI_Wait()
+- `MPI_Send(), MPI_Recv(), MPI_Probe(), MPI_Wait()`
 
 ### Пример компиляции и запуска:
 ```bash
